@@ -34,7 +34,7 @@ It carries a set of thinking prompts rather than a playbook, a pressure-test ste
 **Claude Code and Cowork (local):** copy a skill folder into `~/.claude/skills/`, or into `.claude/skills/` inside a project to scope it there.
 
 ```bash
-git clone https://github.com/USERNAME/claude-skills.git
+git clone https://github.com/mikeheller-gtm/claude-skills.git
 cp -r claude-skills/skills/founder-gtm-audit ~/.claude/skills/
 ```
 
