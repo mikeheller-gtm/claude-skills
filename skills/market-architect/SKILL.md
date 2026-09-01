@@ -38,6 +38,10 @@ These are real examples from Mike's world and beyond. Reference them by name whe
 
 **"Cinnamon is not cinnamon" (the pressure-test lesson)**: A pooled-buying-group idea for a food and beverage platform sounded dominant until the founder pointed out that non-commodity ingredients carry customer-specific specs, so demand cannot be aggregated at small scale; the play only works on genuinely standardized units like corrugate and packaging, or at a customer density far beyond where the company was. The lesson: an aggregation, marketplace, benchmark, or buying-group play silently assumes the underlying unit is fungible and the network is dense enough. Check those assumptions against ground truth before presenting, and scope the play to where they actually hold.
 
+**"Grammarly is not productivity" (the consumer purchase-driver lesson)**: Mike's wife was the first product marketer at Grammarly, and nearly all of the company's $500M+ in revenue turned out to be driven not by productivity but by people wanting to look or feel smart. Highly productive founders systematically overestimate how much anyone else is buying productivity. The lesson: in consumer and prosumer markets, name what the buyer actually feels they are getting, and stay open-minded that it is status, identity, or relief rather than time saved.
+
+**"Nobody builds for a base that is not in homes yet" (the cold-start lesson)**: A hardware founder liked the move of opening his connector spec and turning the robotics community he came from into a distributed R&D lab, then made the obvious objection: nobody designs attachments for a base that is not already in people's homes and does not yet do enough on its own. The ecosystem play was right, the entry point was missing. The lesson: every ecosystem, standard, or community-supply play has an n=0 problem, and the answer belongs inside the strategy (the cohort that would build for status, competition or craft rather than money, the first supply you seed yourself, or the threshold that triggers the play later), not left for the founder to find.
+
 **Other-era pattern matches** (use sparingly, when apt): Palmer Luckey changed how DoD procures. Daniel Ek spent years convincing labels to license streaming at all. Uber and Airbnb invented labor categories and forced regulatory restructuring city by city. Scale and Mercor invented the expert-labeler job. Flexport became the freight forwarder instead of selling them software. Henry Ford's $5 day manufactured his own customer base. Reed Hastings twice convinced incumbents to accept a structure that cannibalized them. Disneyland was a full-stack "that's not your business" bet.
 
 ## Generating Strategies: Prompts, Not a Playbook
@@ -57,6 +61,18 @@ Do not treat the following as a fixed library. It is a set of thinking prompts t
 
 Calibration: always swing big. Include the audacious market-restructuring plays (acquisitions, new job categories, institutional persuasion) even if they are a stretch for this founder today. Feasibility notes are welcome; self-censoring is not. If an idea requires the founder to move mountains, say what mountain and how the first shovelful goes in. But bold does not mean unexamined: every strategy must survive the pressure-test step below before it reaches the founder or Mike.
 
+## Two Rules That Decide Whether This Is Useful
+
+### The ambition floor
+
+The founder's own most ambitious statement about the company is the FLOOR, not the ceiling. At least one strategy must extend past it. A founder who hears these ideas and recognizes a tidier version of their own plan correctly concludes the exercise was a waste of their time, and Mike loses the thing that makes the conversation worth having.
+
+Before presenting, find the most ambitious thing the founder said in the transcript or the material (the version of the company they described when they were not being careful) and check every strategy against it. If they all sit inside that statement, the generation step failed. Go back and swing harder. This is the single most common failure mode of this skill. If the material contains no ambition statement at all, say so, use the boldest claim they did make as the floor, and note that the ceiling is untested until Mike asks them the question directly.
+
+### Prefer named targets
+
+"Partner with a standards body" is a prompt, not a strategy. "Acquire or license the certification that X controls, and recruit Y who built it" is a strategy. Where a play depends on a specific institution, dataset, community, company, or person, name the actual candidate, or name two or three and say how to choose between them. Search if the name is findable and Mike has not already given it. If no name can be identified, say what kind of entity to look for and what the first search would be.
+
 ## Workflow
 
 ### Step 1: Ingest
@@ -69,12 +85,13 @@ Before generating, briefly establish: what the company sells, who buys, the curr
 
 ### Step 3: Generate strategy candidates
 
-Generate 6-10 candidates freely, swinging big. Cheap ideas are cheap; the expensive part is the pressure test, so spend the generation budget widely and the kill budget hard. Then pressure-test (Step 4) and present only the 3-5 survivors. For each surviving strategy, give:
+Generate 6-10 candidates freely, swinging big, checking each against the ambition floor. Cheap ideas are cheap; the expensive part is the pressure test, so spend the generation budget widely and the kill budget hard. Then pressure-test (Step 4) and present only the 3-5 survivors. For each surviving strategy, give:
 - **The move**, in one or two punchy sentences
 - **Why it restructures the market** (what constraint it removes, why the founder would uniquely own the result)
 - **What has to be true** for it to work, including the result of its kill test (see Step 4)
-- **The first concrete step** the founder could take in the next 30 days
-- **Closest analog**, when one exists (Matt Sornson, Clay, Tango, Flexport, etc.)
+- **The claim it hands the founder**: one sentence they could use in their own pitch if they made this move. Founders adopt a strategy fastest when it also gives them language for something they already half believed and could not articulate.
+- **The first concrete step** in the next 30 days, framed as a low-stakes experiment rather than a commitment: what to run, and what result would tell them to go further or drop it. Founders will run a cheap reversible test long before they will bet the roadmap.
+- **Closest analog**, when one exists (Matt Sornson, Clay, Tango, Flexport, etc.), always with the one-line mechanism rather than just the name. The example that lands is the one where the founder can see exactly what the move was.
 
 Order by potential magnitude, boldest defensible idea first.
 
@@ -88,6 +105,8 @@ The founders and operators reading these ideas know their market's ground truth 
 4. **Neutrality test** (for any standard, rating, or certification play): will the market accept this company as the neutral party, given that it also sells into the same market? If not, what structure (consortium, separate entity, credible third-party partner) would make it acceptable?
 5. **Second-order GTM test** (for any play that changes the business model): a new motion usually means a new buyer and a new call. Services-led offers often should NOT be sold to the team they threaten or bypass (selling sourcing-as-a-service to the procurement team is asking the turkey to vote for Thanksgiving; the buyer is probably the CEO, CFO, or owner). If the strategy changes what is being sold, say explicitly who the new buyer is, what the outreach motion becomes, and why that buyer says yes.
 6. **Best-rebuttal test**: for each candidate, articulate the single strongest objection a domain-expert founder would raise from ground truth. Then try to answer it before presenting. Many of these assumptions are checkable: whether the named institution actually controls the standard, whether the unit is standardized, whether a named target exists and does what you think, whether a comparable move has been tried and failed. Spend a bounded research effort on each surviving candidate's load-bearing assumption (a handful of searches, not a research project) and say what you checked and what you found. If the assumption cannot be verified from public information, name it openly as the thing to verify ("this works if X; worth one customer conversation to check") or cut the idea. Never present an idea whose central assumption you have neither checked nor surfaced. "Cinnamon is not cinnamon" was checkable before it was presented.
+7. **Cold-start test** (for any ecosystem, community, open-standard, third-party-builder, marketplace, or two-sided play): who builds, joins, or supplies first, at zero installed base, and what is in it for them at that moment? Nobody designs an attachment for a base that is not in homes yet. If the honest answer depends on the installed base already existing, the play is not wrong, it is sequenced, and the strategy has to carry its own entry point: a cohort that would do the work for status, competition, prize money or craft rather than money, a first supply the company seeds itself, or an explicit threshold that triggers the play later. Put that answer inside the strategy where the founder reads it. If it only surfaces after they raise the objection, they conclude the idea does not survive contact with their world, however much they liked it.
+8. **Buyer motivation test** (for any consumer or prosumer play, and any play whose value rests on a structural property like modularity, openness, participation, or interoperability): the structure is a means, and the buyer only cares about the end. Say plainly what the buyer feels they are getting, and do not assume it is productivity (see "Grammarly is not productivity"). If the strategy's appeal requires the buyer to care about the architecture itself, it is an engineering preference wearing a market thesis, and it needs a second reason to buy that a normal person would say out loud.
 
 When Mike relays founder feedback that killed or scoped an idea, treat it as ground truth, fold it into the revised recommendation, and prefer scoping over full retreat: the useful answer to "cinnamon is not cinnamon" is "then run it on corrugate," not silence.
 
@@ -124,9 +143,10 @@ When Mike asks to turn a run into something he can share with the founder (phras
 
 1. **Strip all evaluative reads on the founder.** No scores, no pass logic, no "does she have the architect gene" synthesis, no references to Mike's internal notes or template. The GTM quality critique either disappears or survives only where it is constructive advice embedded in a strategy.
 2. **Open with the market architect theory as context.** The founder needs Mike's lens to understand why the ideas look the way they do: execution risk has collapsed, product creativity is table stakes, the founders who win biggest are creative in the deal space and treat market structure as buildable, and the binding constraint is usually structural rather than technical. Two or three paragraphs, written as Mike sharing how he thinks, not as a lecture.
-3. **Explain or anonymize every example.** The founder does not know Mike's reference points. Public companies (Clay, Tango, Flexport, CoStar, Dropbox, etc.) get a one-line explanation of who they are and why the pattern is relevant. Private or sensitive examples (other founders Mike works with, Mike's own incubation ideas) get lightly anonymized ("a founder I work with...", "an idea I've been developing with a company...") unless Mike says to name them. Matt Sornson may be named (note the spelling: Sornson, not Sorensen) with a one-line explanation.
+3. **Explain or anonymize every example.** The founder does not know Mike's reference points. Public companies (Clay, Tango, Flexport, CoStar, Dropbox, etc.) get a one-line explanation of who they are and why the pattern is relevant. Private or sensitive examples (other founders Mike works with, Mike's own incubation ideas) get lightly anonymized ("a founder I work with...", "an idea I've been developing with a company...") unless Mike says to name them. Matt Sornson may be named (note the spelling: Sornson, not Sorensen) with a one-line explanation. Give the mechanism, not just the name: the examples founders react to are the ones where they can see exactly what the move was.
 4. **Write to the founder ("you"), warm and direct, without self-congratulatory framing** (no "take this as a gift" type language). Same ideas, same boldness. Keep the challenge questions; they are the most valuable part. Frame them as "the question I'd be asking myself in your shoes." Where a strategy survived only in scoped form, present the scoped version with its reasoning; founders respect "this only works for corrugate, here's why" far more than a general idea they can puncture.
-5. **Keep Mike's voice rules**: no em dashes, no consulting jargon, conversational, direct, no padding.
+5. **Keep the ambition floor and the named targets in the shared version.** The polish pass is where bold ideas quietly get sanded into reasonable ones. If a strategy reads as safer in the founder version than it did in the run, put it back.
+6. **Keep Mike's voice rules**: no em dashes, no consulting jargon, conversational, direct, no padding.
 
 Structure for the doc: short personal intro (why Mike is sending this), the lens (market architects), what he sees in the business (diagnosis, positives-forward), the strategies, and a short close inviting reaction. It should read like a generous note from an investor who took the business seriously, whatever the investment outcome was.
 
