@@ -4,7 +4,7 @@ Claude skills for early-stage go-to-market work, from [Mike Heller](https://floo
 
 Each one is packaged as an [Agent Skill](https://docs.claude.com/en/docs/agents-and-tools/agent-skills/overview): a folder with a `SKILL.md` that Claude loads when the work matches its description.
 
-Two of them are written for a founder running them on their own company. The third is the version Mike runs from an investor's seat, published as-is.
+Both are written for a founder running them on their own company.
 
 ## The skills
 
@@ -33,11 +33,7 @@ It asks you for what it needs (what you sell, how you sell it, where you are, an
 
 Two rules do most of the work. **The ambition floor:** your own most ambitious statement is the minimum, and at least one strategy has to reach past it, because a tidier version of your own plan is a waste of your time. **Named targets:** "partner with a standards body" is a prompt, not a strategy, so where a play depends on a specific institution, dataset, community, or person, it names the candidate.
 
-Every strategy runs a set of kill tests first (fungibility, density, attribution, neutrality, second-order go-to-market, and the strongest rebuttal you would raise). Ideas that survive only in scoped form are presented scoped, with the reasoning. The point is that you shouldn't be able to puncture an idea in one sentence.
-
-### `market-architect`
-
-The investor-seat version of the above: same lens and same pressure tests, but it runs on a pitch call, judges the go-to-market as a quality of the business, and closes on what the gap between the founder's plan and the dominant strategies implies. Published for anyone who wants to see what the internal one looks like. If you're a founder, use `founder-market-architect` instead.
+Every strategy runs a set of kill tests first (fungibility, density, attribution, neutrality, second-order go-to-market, cold start, buyer motivation, and the strongest rebuttal you would raise). Ideas that survive only in scoped form are presented scoped, with the reasoning. The point is that you shouldn't be able to puncture an idea in one sentence.
 
 ## Installing
 
@@ -54,7 +50,7 @@ cp -r claude-skills/skills/founder-market-architect ~/.claude/skills/
 cd skills && zip -r founder-market-architect.zip founder-market-architect
 ```
 
-Claude picks a skill up on its own when a request matches the `description` in its frontmatter, so no invocation syntax is needed. Ask it something like "run market architect on my company" or "review this sales call" and it will load the right one. `market-architect` is deliberately set to trigger only on explicit requests so it doesn't fire on ordinary pitch analysis.
+Claude picks a skill up on its own when a request matches the `description` in its frontmatter, so no invocation syntax is needed. Ask it something like "run market architect on my company" or "review this sales call" and it will load the right one.
 
 ## Notes
 
