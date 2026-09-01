@@ -19,7 +19,7 @@ The audit is anchored on two things that, when founders get them wrong, tend to 
 
 Two secondary lenses run alongside: following the breadcrumbs buyers drop and go unexplored, and spotting unexpected customer pull across multiple calls.
 
-Feed it pasted transcripts or Granola / Gong / Chorus exports.
+Feed it pasted transcripts or Granola / Gong / Chorus exports. A few calls are enough to run on. A whole quarter of calls is better in a way that isn't linear: that's where the needle-in-a-haystack findings live (the segment where Call 2 conversion is triple everyone else's, the offhand question five prospects asked, the buyer language the founder never uses), and the skill goes looking for them specifically once it has ten or more.
 
 ### `founder-market-architect`
 
@@ -58,7 +58,7 @@ Claude picks a skill up on its own when a request matches the `description` in i
 
 ## Notes
 
-These are working documents, not finished frameworks. `founder-market-architect` in particular changes as founders push back on its output. Feedback that says "this was less ambitious than my own thinking" is the most useful kind, and is exactly why the ambition floor rule exists.
+These are working documents, not finished frameworks. The current versions are tuned for the Claude Fable 5 generation of models (September 2026): they run unattended after one intake message, generate more candidates and kill harder, check load-bearing assumptions with a bounded amount of research before presenting an idea, and carry explicit rules on quoting, prose density, and formatting that newer models need and older ones didn't. They still work on Opus and Sonnet. `founder-market-architect` in particular changes as founders push back on its output. Feedback that says "this was less ambitious than my own thinking" is the most useful kind, and is exactly why the ambition floor rule exists.
 
 ## License
 
