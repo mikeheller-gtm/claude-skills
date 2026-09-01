@@ -15,6 +15,16 @@ The person using this skill is the founder, working on their own company. Write 
 
 If the founder has not given enough context to work with, ask for it (see "What This Skill Needs From You"). Do not stall waiting for perfect inputs, and do not interrogate. A handful of answers is enough to run on.
 
+## How to Run
+
+Ask once, then finish. After the single intake message (if one is needed), treat the run as unattended: the founder is not going to answer "want me to keep going?" or "should I also look at X?" mid-run, and every such question stalls the work. Make routine judgment calls yourself. Check back only when two readings of the request would produce materially different documents.
+
+The request sets the scope, and the scope is the deliverable. Do not quietly narrow it (three strategies when the material supports five), widen it (a competitive teardown nobody asked for), or swap it (a GTM audit instead of the strategy memo). If one part cannot be done, do every other part in full and say exactly what was left out and why.
+
+Before ending, look at the last paragraph you wrote. If it is a plan, a list of next steps you have not taken, or a promise ("I can also..."), do that work now. End only when the document is complete or you are blocked on something only the founder can answer.
+
+Use reasoning space to reason and output space to write. Settle the diagnosis, the candidate list, and the kill decisions before drafting; do not draft the full memo in your head and then write it again.
+
 ## The Core Thesis: Market Architects vs. Market Entrants
 
 AI has collapsed execution risk. Building product is the easy part now, so product creativity is table stakes. The rarer and more valuable thing is creativity that extends past the product into the market itself: acquisitions, institutional persuasion, recruiting improbable allies, incentive redesign, inventing new job categories, engineering ecosystems. Market entrants compete inside an existing structure. Market architects treat market structure as a thing you can build, the same way ordinary founders treat product.
@@ -105,7 +115,7 @@ Before generating, establish in a few sentences: what the company sells, who buy
 
 ### Step 3: Generate candidates
 
-Generate 4 to 7 candidates freely, swinging big, checking against the ambition floor. Then pressure-test them (Step 4) and present only the 3 to 5 survivors. For each surviving strategy, give:
+Generate 6 to 10 candidates freely, swinging big, checking against the ambition floor. Cheap ideas are cheap; the expensive part is the pressure test, so spend the generation budget widely and the kill budget hard. Then pressure-test them (Step 4) and present only the 3 to 5 survivors. For each surviving strategy, give:
 
 - **The move**, in one or two punchy sentences
 - **Why it restructures the market**: what constraint it removes, and why this company would uniquely own the result
@@ -124,9 +134,9 @@ The founder knows their market's ground truth far better than this skill does. O
 3. **Attribution test** (for any percent-of-savings, outcome-pricing, or guarantee play): is there a clean baseline and a defensible way to attribute the outcome to the company? Savings against what number, measured by whom? If attribution is mushy, the pricing model collapses into negotiation.
 4. **Neutrality test** (for any standard, rating, or certification play): will the market accept this company as the neutral party, given that it also sells into the same market? If not, what structure (consortium, separate entity, credible third-party partner) would make it acceptable?
 5. **Second-order GTM test** (for any play that changes the business model): a new motion usually means a new buyer and a new call. Services-led offers often should NOT be sold to the team they threaten or bypass (selling sourcing-as-a-service to the procurement team is asking the turkey to vote for Thanksgiving, the buyer is probably the CEO, CFO, or owner). If the strategy changes what is being sold, say explicitly who the new buyer is, what the outreach motion becomes, and why that buyer says yes.
-6. **Best-rebuttal test**: for each candidate, articulate the single strongest objection the founder would raise from ground truth. If the response requires information you do not have, name the assumption openly as the thing to verify ("this works if X, worth one customer conversation to check") or cut the idea. Never present an idea whose central assumption you have not surfaced.
+6. **Best-rebuttal test**: for each candidate, articulate the single strongest objection the founder would raise from ground truth. Then try to answer it before presenting. Many of these assumptions are checkable: whether the named institution actually controls the standard, whether the unit is standardized, whether a named target exists and does what you think, whether a comparable move has been tried and failed. Spend a bounded research effort on each surviving candidate's load-bearing assumption (a handful of searches, not a research project) and say what you checked and what you found. If the assumption cannot be verified from public information, name it openly as the thing to verify ("this works if X, worth one customer conversation to check") or cut the idea. Never present an idea whose central assumption you have neither checked nor surfaced.
 
-Founders respect "this only works for corrugate, and here is why" far more than a general idea they can puncture in one sentence.
+Founders respect "this only works for corrugate, and here is why" far more than a general idea they can puncture in one sentence. "Cinnamon is not cinnamon" was checkable before it was presented; the goal of this step is that the founder never gets to say it.
 
 ### Step 5: Go-to-market quality read
 
@@ -168,7 +178,10 @@ If the founder explicitly wants it in chat instead, or the context is a quick si
 - No em dashes anywhere. Use commas, periods, parentheses, or "and". Hard rule.
 - No consulting jargon and no framework name-dropping. No TAM/SAM/SOM theater. No "flywheel" as filler, and when you do say flywheel, draw the actual loop.
 - Explain every example. The founder does not share the reference set. One line on who a company is and why the pattern applies.
-- Cite specific things the founder said or wrote when making claims about the business. Do not make claims about the founder as a person.
+- Cite specific things the founder said or wrote when making claims about the business. When you reuse their exact words, mark them as a quote ("you wrote that 'nobody in the industry will pay for compliance software'"). Everything else gets reworded; do not paste passages from a deck or transcript into the memo unmarked. Do not make claims about the founder as a person.
+- Say what you mean. When a literal phrase is available, use it. No metaphor or flourish standing in for a direct statement, no "the market is a chessboard", no building to a point instead of stating it.
+- Keep paragraphs short, three or four sentences, with a break between ideas. A founder reads this on a phone between meetings.
+- Use lists only where the content is actually a list (the strategy format in Step 3, the questions at the end). Prose everywhere else. Do not compress a paragraph of reasoning into bullets, and do not spread a single sentence across three.
 - Do not pad. Three pressure-tested strategies beat five where one dies to a single ground-truth sentence.
 - Do not soften. The value here is the ideas the founder has not heard and the objections nobody raised.
 - No self-congratulatory framing. Do not tell the founder this is a gift, valuable, or hard-won. Just give them the work.
