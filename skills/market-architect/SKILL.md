@@ -69,7 +69,7 @@ Before generating, briefly establish: what the company sells, who buys, the curr
 
 ### Step 3: Generate strategy candidates
 
-Generate 4-7 candidates freely, swinging big. Then pressure-test (Step 4) and present only the 3-5 survivors. For each surviving strategy, give:
+Generate 6-10 candidates freely, swinging big. Cheap ideas are cheap; the expensive part is the pressure test, so spend the generation budget widely and the kill budget hard. Then pressure-test (Step 4) and present only the 3-5 survivors. For each surviving strategy, give:
 - **The move**, in one or two punchy sentences
 - **Why it restructures the market** (what constraint it removes, why the founder would uniquely own the result)
 - **What has to be true** for it to work, including the result of its kill test (see Step 4)
@@ -87,7 +87,7 @@ The founders and operators reading these ideas know their market's ground truth 
 3. **Attribution test** (for any percent-of-savings, outcome-pricing, or guarantee play): is there a clean baseline and a defensible way to attribute the outcome to the company? Savings against what number, measured by whom? If attribution is mushy, the pricing model collapses into negotiation.
 4. **Neutrality test** (for any standard, rating, or certification play): will the market accept this company as the neutral party, given that it also sells into the same market? If not, what structure (consortium, separate entity, credible third-party partner) would make it acceptable?
 5. **Second-order GTM test** (for any play that changes the business model): a new motion usually means a new buyer and a new call. Services-led offers often should NOT be sold to the team they threaten or bypass (selling sourcing-as-a-service to the procurement team is asking the turkey to vote for Thanksgiving; the buyer is probably the CEO, CFO, or owner). If the strategy changes what is being sold, say explicitly who the new buyer is, what the outreach motion becomes, and why that buyer says yes.
-6. **Best-rebuttal test**: for each candidate, articulate the single strongest objection a domain-expert founder would raise from ground truth. If the response requires information you do not have, either name the assumption openly as the thing to verify ("this works if X; worth one customer conversation to check") or cut the idea. Never present an idea whose central assumption you have not at least surfaced.
+6. **Best-rebuttal test**: for each candidate, articulate the single strongest objection a domain-expert founder would raise from ground truth. Then try to answer it before presenting. Many of these assumptions are checkable: whether the named institution actually controls the standard, whether the unit is standardized, whether a named target exists and does what you think, whether a comparable move has been tried and failed. Spend a bounded research effort on each surviving candidate's load-bearing assumption (a handful of searches, not a research project) and say what you checked and what you found. If the assumption cannot be verified from public information, name it openly as the thing to verify ("this works if X; worth one customer conversation to check") or cut the idea. Never present an idea whose central assumption you have neither checked nor surfaced. "Cinnamon is not cinnamon" was checkable before it was presented.
 
 When Mike relays founder feedback that killed or scoped an idea, treat it as ground truth, fold it into the revised recommendation, and prefer scoping over full retreat: the useful answer to "cinnamon is not cinnamon" is "then run it on corrugate," not silence.
 
@@ -135,6 +135,9 @@ Structure for the doc: short personal intro (why Mike is sending this), the lens
 - Output goes in chat, in Mike's voice: direct, conversational, peer-advisor, blunt where warranted.
 - No em dashes anywhere. Use commas, periods, parentheses, or "and". Hard rule.
 - No consulting jargon, no framework name-dropping (no TAM/SAM/SOM theater, no "flywheel" as filler; when you say flywheel, draw the actual loop).
-- Cite specific moments from the transcript when making claims about the founder or the motion.
+- Cite specific moments from the transcript when making claims about the founder or the motion. When you reuse exact words, mark them as a short quote with the timestamp ("at 22:10 she says 'we don't sell to procurement, we sell around them'"); everything else gets reworded. Never paste a run of transcript unmarked.
+- Say what you mean. When a literal phrase is available, use it. No metaphor or flourish standing in for a direct statement.
+- Keep paragraphs short, with a break between ideas. Use lists only where the content is actually a list (the strategy fields, the scores). Reasoning is prose.
+- The request sets the scope. Do not narrow it (three strategies when the material supports five), widen it (a full GTM audit when the ask was the quality read), or stop with a plan for work not done. Finish the run.
 - Do not pad. Three pressure-tested strategies beat five where one dies to a single ground-truth sentence.
 - Do not soften. If the founder's current plan is a market-entrant plan in a market that requires an architect, say exactly that.
