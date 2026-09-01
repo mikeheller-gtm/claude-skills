@@ -88,8 +88,11 @@ Read `references/framework.md` for the full advisory framework, voice guidelines
 The skill expects some combination of:
 
 **Required:**
-- 2-8 sales call transcripts (pasted text, Granola/Gong/Chorus links, or exports)
-- OR at minimum 1 transcript for a lighter tactical review
+- At least 1 sales call transcript (pasted text, Granola/Gong/Chorus links, or exports) for a quick tactical review
+- 2-8 transcripts for a proper audit
+- As many as the founder is willing to share, up to a whole quarter of calls, for the deepest version (see "How Many Calls" below)
+
+**How many calls.** Tell the founder this plainly, once, near the start: a few calls are enough to run on, and more is better in a way that is not linear. With two or three calls the audit is mostly call-level coaching (what was missed at 4:10, how the call should have ended). With ten, twenty, or a quarter's worth, a different kind of finding shows up: the needle-in-a-haystack pattern that no single call reveals. Four prospects who each asked one offhand question about the same secondary feature. The segment where Call 1 to Call 2 conversion is triple everyone else's. The buyer type who describes the product in language the founder never uses. Those are the findings that change positioning and pipeline, not just the next call, and they only exist in volume. So say: run it on what you have, and if you can drop in the whole quarter, do that instead. Do not make it a requirement and do not hold up the audit waiting for more. Most founders will start with a few, and a good audit on a few is what earns the rest.
 
 **Strongly encouraged (ask for this briefly if missing):**
 - Context about the company: what it sells, who the buyer is, stage, target deal size, who does the selling
@@ -102,7 +105,21 @@ The skill expects some combination of:
 - Website copy or positioning materials
 - Pricing model or packaging details
 
-If company context is missing, ask 2-3 quick questions before producing a full audit (for a quick single-call review, just proceed and note the assumptions). Don't interrogate; the transcripts carry most of the signal.
+If company context is missing, ask 2-3 quick questions before producing a full audit (for a quick single-call review, just proceed and note the assumptions). Don't interrogate; the transcripts carry most of the signal. Fold the "how many calls" note into that same message rather than sending it separately.
+
+## How to Run
+
+Ask once, then finish. After the single intake message (if one is needed), treat the run as unattended: the founder is not going to answer "should I keep going?" or "want me to also look at the emails?" mid-run, and every such question stalls the work. Make routine judgment calls yourself. Check back only when two readings of the request would produce materially different audits.
+
+The request sets the scope, and the scope is the deliverable. Do not quietly narrow it (reviewing four of the twelve calls), widen it (a pricing strategy nobody asked for), or swap it. If one part cannot be done, do every other part in full and say exactly what was left out and why.
+
+When transcripts come from a tool (Granola, Gong, Chorus, a folder of exports), fetch or read every one you can in as few rounds as possible: list what you need first, then request everything that does not depend on another result in one go. Do not read one transcript, analyze it, then go get the next.
+
+For large sets (roughly ten or more calls), build a short per-call ledger before writing anything: prospect, role, segment, call stage, the top problem surfaced (or not), how the call ended, whether a next step got booked, whether that next step later happened if a later call shows it, and any breadcrumb or unusual energy. The cross-call findings in Step 3 and Step 4 come from reading that ledger, not from memory of twenty transcripts.
+
+Before ending, look at the last paragraph you wrote. If it is a plan, a list of things you have not done, or a promise ("I can also draft..."), do that work now. End only when the audit is complete or you are blocked on something only the founder can answer.
+
+Use reasoning space to reason and output space to write. Settle the ledger, the principle checks, and the recommendation order before drafting; do not draft the whole audit in your head and then write it again.
 
 ## Workflow
 
@@ -137,6 +154,15 @@ These two checks should produce the first (and often most important) recommendat
 **Breadcrumb check:** Go back through each transcript and flag moments where the prospect dropped a breadcrumb that went unfollowed. Look for mentions of people, projects, strategies, or initiatives that went unexplored. Look for moments where the prospect's energy shifted or they asked unexpected follow-up questions. For each missed breadcrumb, note what it likely signals and what question should have been asked.
 
 **Unexpected pull check (multi-transcript only):** If there are 3+ transcripts, look across them for patterns in what prospects gravitate toward that doesn't match the core pitch. Are multiple prospects excited about the same "secondary" feature? Do they describe the value differently than the founder does? Are they expressing urgency about an adjacent problem? If you spot a pattern, flag it as a strategic observation.
+
+**Haystack check (ten or more transcripts):** With a quarter's worth of calls, go looking for the findings that only exist in volume, using the per-call ledger from "How to Run":
+- Conversion by segment: where does Call 1 turn into Call 2, and where does it die? Is there a buyer role, company size, or channel where the motion works and one where it doesn't?
+- Did the next step convert: when a call ended with a booked next step, does a later call with the same prospect exist? When it ended with "I'll follow up," how often did anything follow? This turns Principle 2 from advice into a number.
+- Language drift: collect the phrases prospects use to describe the problem and the product, side by side with the founder's. Recurring buyer language the founder never uses is usually the real value proposition.
+- The offhand question that keeps showing up: one prospect asking about integrations is noise; five is a roadmap or a positioning signal.
+- Drift over time: is the founder's pitch converging on something across the quarter, or is every call a fresh improvisation? Did earlier advice (if this is a repeat audit) actually show up in later calls?
+
+Present haystack findings as their own short section, with the count behind each one ("in 6 of 14 calls..."). A pattern with a number is a finding; a pattern without one is a hunch, and should be labeled as such.
 
 ### Step 4: Cross-Transcript Pattern Recognition on Supporting Dimensions
 
@@ -191,6 +217,7 @@ The output format should match the context. Use judgment:
 **For a full GTM audit (3+ transcripts, formal deliverable):**
 - Produce a document (a .docx or well-structured markdown file the user can keep and share with their team)
 - Structure: Overview section (company context, what was reviewed), Core Recommendations (numbered, with sub-sections for each), Additional Observations, and optionally a section on Strategic Questions to consider
+- With ten or more calls, add a "What the whole set says" section for the haystack findings, placed before Additional Observations
 
 **For lighter tactical feedback (1-2 transcripts, quick turnaround):**
 - Conversational format is fine: call-specific observations with timestamps, suggested questions, and a few strategic notes at the end
@@ -208,6 +235,9 @@ This is critical. The output should sound like a sharp advisor giving advice to 
 - Write in direct, conversational language
 - Use "you" when addressing the user
 - Reference specific moments from the calls ("At 4:10, you proactively pitch X -- before doing that, try asking...")
+- When you reuse a prospect's or the founder's exact words, mark them as a quote and keep it short: "At 12:40 she says 'we already tried two of these and nobody used them,' and you move on to the demo." Everything else gets reworded. Never paste a run of transcript into the audit unmarked
+- Say what you mean. When a literal phrase is available, use it. No metaphor or flourish standing in for a direct statement
+- Keep paragraphs short, with a break between ideas. Founders read this on a phone
 - Acknowledge what's working before diving into improvements
 - Frame recommendations as unlocking revenue, not fixing mistakes
 - Include the reasoning behind advice (don't just say "ask more discovery questions" -- explain why it matters for this specific company)
@@ -219,7 +249,8 @@ This is critical. The output should sound like a sharp advisor giving advice to 
 - Produce generic sales advice that could apply to any company
 - Use em dashes (use parentheses, commas, or restructure the sentence instead)
 - Be unnecessarily harsh -- this is peer advice, not a performance review
-- Over-format with excessive headers, bullets within bullets, or complex hierarchies
+
+**Formatting:** use headers for the sections named in Output Format and lists where the content is actually a list (the recommendation fields, the haystack findings with their counts, suggested talk tracks). Reasoning, findings, and advice are prose. Do not compress an argument into bullets, and do not nest bullets inside bullets.
 
 ## Important Nuances
 
