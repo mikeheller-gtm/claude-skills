@@ -1,0 +1,34 @@
+{
+  "name": "mikeheller-gtm",
+  "owner": {
+    "name": "Mike Heller",
+    "url": "https://github.com/mikeheller-gtm"
+  },
+  "metadata": {
+    "description": "Claude skills for early-stage go-to-market work, written for founders running them on their own company."
+  },
+  "plugins": [
+    {
+      "name": "founder-gtm-audit",
+      "source": "./skills/founder-gtm-audit",
+      "description": "Sales coaching and a go-to-market audit on your own sales call transcripts, from one call to a full quarter.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Mike Heller"
+      },
+      "license": "MIT",
+      "keywords": ["sales", "go-to-market", "gtm", "founders", "startups"]
+    },
+    {
+      "name": "founder-market-architect",
+      "source": "./skills/founder-market-architect",
+      "description": "Find the structural, non-product move that could let your company own its market, then pressure-test it.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Mike Heller"
+      },
+      "license": "MIT",
+      "keywords": ["strategy", "go-to-market", "market-architecture", "founders", "startups"]
+    }
+  ]
+}
