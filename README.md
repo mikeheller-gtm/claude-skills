@@ -16,9 +16,8 @@ No terminal, no code. About two minutes.
 1. Download the skill you want. Direct links:
    - [founder-gtm-audit.zip](https://github.com/mikeheller-gtm/claude-skills/raw/main/dist/founder-gtm-audit.zip)
    - [founder-market-architect.zip](https://github.com/mikeheller-gtm/claude-skills/raw/main/dist/founder-market-architect.zip)
-2. In Claude, make sure **code execution** is turned on: Settings > Capabilities. (Skills need it. It's on by default for most accounts.)
-3. Go to **Customize > Skills** in the sidebar, click **+**, then **Create skill**, then **Upload a skill**, and pick the zip you downloaded.
-4. Start a new chat and ask for what you want. For example, paste a call transcript and say "review this sales call." Claude will pick up the skill on its own.
+2. In Claude, click **Customize** in the sidebar, then **Skills**, then **Add > Upload skill**. Drop in the zip you downloaded and click **Save**. (If you don't see Skills there, turn on code execution and file creation under Settings > Capabilities first.)
+3. Start a new chat and ask for what you want. For example, paste a call transcript and say "review this sales call." Claude will pick up the skill on its own.
 
 Works on Free, Pro, Max and Team plans. The same install covers Cowork on the desktop app, which loads whatever skills are enabled on your Claude account.
 
